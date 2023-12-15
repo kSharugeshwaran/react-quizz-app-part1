@@ -1,0 +1,102 @@
+*{
+  margin: 0px;
+  padding: 0px; 
+  /* background-color: rgb(71,58,141); */
+}
+body{
+  background-color:  rgb(71,58,141);
+
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 46%;
+  top: 40%;
+  font-size: 20px;
+}
+.start{
+  font-size: 15px;
+  margin-top: 20px;
+}
+.quiz{
+  height: 600px;
+  width: 1000px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 280px;
+}
+.quiz p{
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 5vh;
+  font-size: 25px;
+  background-color: white;
+}
+.options{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 40px;
+  background-color: white;
+  margin-top: 25vh;
+  margin-left: 15vh;
+}
+.option{
+  width: 300px;
+  height: 40px;
+  background-color: rgb(1, 215, 194);
+  text-align: center;
+  border-radius: 30px;
+}
+.option p{
+  position: relative;
+  top: 5px;
+  background-color: rgb(1, 215, 194);
+  color: white;
+  border-radius: 30px;
+  font-size: 18px;
+}
+.funcbutn{
+  background-color: white;
+  padding: 10vh;
+  padding-left: 20vw;
+}
+.qbutn{
+  margin: 20px;
+}
+
+.stats{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 50vh;
+  margin-top: 50px;
+  margin-left: 150px;
+  text-align: left;
+  
+}
+.dis{
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  color: black;
+  height: 400px;
+}
+.resultPage{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 17vw;
+  height: 600px;
+}
+.decide button{
+  margin: 20px;
+}
+
+.dis h2{
+  padding: 20px;
+}
+.dis h3{
+  padding: 20px;
+}
